@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cafe_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/MainColor"
+        app:titleTextColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/JungGu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/JungGu" />
+
+        <Button
+            android:id="@+id/SeoGu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/JungGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/SeoGu" />
+
+        <Button
+            android:id="@+id/DongGu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/SeoGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/DongGu" />
+
+        <Button
+            android:id="@+id/NamGu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/DongGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/NamGu" />
+
+        <Button
+            android:id="@+id/YoungDoGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/NamGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/YoungDoGu" />
+
+        <Button
+            android:id="@+id/BusanJinGu"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/YoungDoGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/BusanJinGu" />
+
+        <Button
+            android:id="@+id/HaeWoonDae"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/HaeWoonDae" />
+
+        <Button
+            android:id="@+id/DongRaeGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:layout_toEndOf="@+id/HaeWoonDae"
+            android:background="@drawable/button_custom"
+            android:text="@string/DongRaeGu" />
+
+        <Button
+            android:id="@+id/BukGu"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:layout_toEndOf="@+id/DongRaeGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/BukGu" />
+
+        <Button
+            android:id="@+id/SaSangGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:layout_toEndOf="@+id/BukGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/SaSangGu" />
+
+        <Button
+            android:id="@+id/GiJangGun"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:layout_toEndOf="@+id/SaSangGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/GiJangGun" />
+
+        <Button
+            android:id="@+id/SaHaGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/JungGu"
+            android:layout_toEndOf="@+id/GiJangGun"
+            android:background="@drawable/button_custom"
+            android:text="@string/SaHaGu" />
+
+        <Button
+            android:id="@+id/GeumJeongGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/HaeWoonDae"
+            android:background="@drawable/button_custom"
+            android:text="@string/GeumJeongGu" />
+
+        <Button
+            android:id="@+id/GangSeoGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/HaeWoonDae"
+            android:layout_toEndOf="@+id/GeumJeongGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/GangSeoGu" />
+
+        <Button
+            android:id="@+id/YeonJeGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/HaeWoonDae"
+            android:layout_toEndOf="@+id/GangSeoGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/YeonJeGu" />
+
+        <Button
+            android:id="@+id/SuYoungGu"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/HaeWoonDae"
+            android:layout_toEndOf="@+id/YeonJeGu"
+            android:background="@drawable/button_custom"
+            android:text="@string/SuYoungGu" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

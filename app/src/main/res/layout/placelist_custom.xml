@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/img" />
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/title"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:text="내용"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/context"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:buttonTint="#BDBCBC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBox1"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

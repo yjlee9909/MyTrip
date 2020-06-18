@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.busanapp.mytrip.PlaceList"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:text="지역분류"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="#77DFC8A5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+
+        <Spinner
+            android:backgroundTint="#BDBCBC"
+            android:id="@+id/spinner_location"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:overScrollMode="never"
+            android:scrollbarSize="10dp"
+            android:dropDownWidth="200dp">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btn_ok_first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="확인"
+            android:background="#B0F1D4A9"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    //검색기능
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="검색어를 입력하세요."/>
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#999999"
+            android:dividerHeight="1dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
