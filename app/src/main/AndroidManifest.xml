@@ -6,11 +6,9 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 사용할 Open GL 라이브러리 설정 -->
-
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" /> <!-- 지도 사용 권한 -->
-
     <permission
         android:name="com.example.kjy.an66_googlelbs.permission.MAP_RECEIVE"
         android:protectionLevel="signature" />
@@ -28,6 +26,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".mytrip.MyTripAddHomeActivity"></activity>
         <activity android:name=".mytrip.PlaceListThird" />
         <activity android:name=".mytrip.PlaceListSecond" />
         <activity android:name=".mytrip.PlaceList" />

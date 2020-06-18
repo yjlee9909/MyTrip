@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -32,6 +33,7 @@ public class AddThirdTripActivity extends PlaceListThird
     Spinner trip_location;
     Button btn_secondplace;
     Button btn_ok_first;
+    Button ok_activity;
     Button save;
     LinearLayout mLinearLayout;
 //  LottieAnimationView animationView;
@@ -61,6 +63,18 @@ public class AddThirdTripActivity extends PlaceListThird
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_new_trip_thirdcourse);
         mLinearLayout = findViewById(R.id.linear_layout);
+
+        //추가
+        //두번쨰 홈액티비티로 넘어가게
+        ok_activity = findViewById(R.id.ok_activity);
+        ok_activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AddThirdTripActivity.this, MyTripAddHomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

@@ -17,7 +17,7 @@
             android:text="지역분류"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:background="#77DFC8A5"
+            android:background="@drawable/round_border_color"
             android:layout_width="100dp"
             android:layout_height="50dp"/>
 
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="확인"
-            android:background="#B0F1D4A9"
+            android:background="@drawable/round_border_color_2"
             android:textStyle="bold"/>
 
 
