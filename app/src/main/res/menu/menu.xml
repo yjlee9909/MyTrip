@@ -4,12 +4,14 @@
 
     <item
         android:id="@+id/item1"
+        android:iconTint="@color/white"
         android:icon="@android:drawable/ic_menu_mylocation"
         android:title="현재위치"
         app:showAsAction="always" />
     <item
         android:id="@+id/item2"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:iconTint="@color/white"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
         android:title="주변정보"
         app:showAsAction="always" />
 

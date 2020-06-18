@@ -19,7 +19,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:background="@color/green"
+                android:background="@color/quantum_googblue600"
                 android:textColor="@color/black"
                 android:layout_gravity="left"
                 android:textSize="20dp"
@@ -37,7 +37,7 @@
             </androidx.recyclerview.widget.RecyclerView>
 
             <TextView
-                android:background="@color/green"
+                android:background="@color/quantum_googblue600"
                 android:textColor="@color/black"
                 android:layout_gravity="left"
                 android:textSize="20dp"
@@ -55,7 +55,7 @@
             </androidx.recyclerview.widget.RecyclerView>
 
             <TextView
-                android:background="@color/green"
+                android:background="@color/quantum_googblue600"
                 android:textColor="@color/black"
                 android:layout_gravity="left"
                 android:textSize="20dp"

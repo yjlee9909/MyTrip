@@ -41,9 +41,9 @@ public class ChecklistFragment extends Fragment {
 
         //데이터 준비
         items = new ArrayList<String>();
-        items.add("Check");
-        items.add("Check");
-        items.add("Check");
+        items.add("폴라로이드");
+        items.add("카드지갑");
+        items.add("세안도구");
 
         // 어댑터 생성
         adapter = new ArrayAdapter<String>(getActivity(),

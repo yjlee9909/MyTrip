@@ -266,7 +266,7 @@ public class EatFragment extends Fragment implements OnMapReadyCallback {
                     markerOptions.title(name);
                     markerOptions.snippet(vicinity);
                     // 아이콘 설정
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.marker1_green);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.newmarker);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, 80, 110, false);
                     markerOptions.icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
