@@ -41,7 +41,7 @@ public class ChecklistFragment extends Fragment {
 
         //데이터 준비
         items = new ArrayList<String>();
-        items.add("폴라로이드");
+        items.add("멀미약");
         items.add("카드지갑");
         items.add("세안도구");
 

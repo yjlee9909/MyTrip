@@ -13,6 +13,7 @@
     <item android:title="@string/menu_checklist">
         <menu>
             <item
+
                 android:id="@+id/nav_checklist"
                 android:checkable="true"
                 android:icon="@drawable/checklist"
@@ -45,6 +46,7 @@
     <item android:title="@string/menu_diary">
         <menu>
             <item
+                android:checkable="true"
                 android:id="@+id/nav_calendar"
                 android:icon="@drawable/diary_icon"
                 android:title="@string/menu_diary_sub" />

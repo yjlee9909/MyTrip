@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ECECEC"
+    android:background="#FAFFFF"
     android:orientation="vertical"
     tools:context=".home.HomeFragment">
 
@@ -20,7 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="#ECECEC">
+                android:background="#FAFFFF">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -39,11 +39,11 @@
                 android:id="@+id/featured_recycler"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
-                android:background="#ECECEC"
+                android:background="#FAFFFF"
                 android:overScrollMode="never" />
 
             <RelativeLayout
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"

@@ -2,9 +2,9 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#CE93D8</color>
+    <color name="colorAccent">#536DFE</color>
 
-    <color name="MainColor">#404A7C</color>
+    <color name="MainColor">#0069FB</color>
 
     <!-- 캘린더 -->
     <color name="color_GridLine">#66BDBDBD</color>
